@@ -107,3 +107,26 @@ padding: 3%;
   padding: 12% 16% 5% 16%;
   background-color:#EAF6F6;
 }
+
+.fixed-bg {
+  padding-top: 20%;
+  text-align: center;
+  background-image: url("space.jpg");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fixed-qt{
+padding-top: 18%;
+text-align: center;
+/* background-image:url("design.jpg"); */
+background-image:url("secure.jpg");
+min-height: 600px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
