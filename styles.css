@@ -73,14 +73,13 @@ p{
 }
 
  #Product-descrption{
-  background-color: #66BFBF;
-  height: 400px;
+  background-color: #64958f;
   text-align: center;
   color:#fff;
 }
 
 .slides{
-    padding: 6% 20% 10% 15%;
+    padding: 13% 20% 10% 15%;
 }
 
 .pro-img{
@@ -122,11 +121,19 @@ padding: 3%;
 .fixed-qt{
 padding-top: 18%;
 text-align: center;
-/* background-image:url("design.jpg"); */
 background-image:url("secure.jpg");
+
 min-height: 600px;
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+}
+
+.tu{
+  text-align: center;
+}
+
+.tu img{
+  width: 45%
 }
