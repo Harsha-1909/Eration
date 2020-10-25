@@ -1,9 +1,12 @@
-body{
-  font-family: 'Open Sans', sans-serif;
-}
+
 html{
     scroll-behavior: smooth;
 }
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
 
 #Title-page{
   background-color: #66BFBF;
