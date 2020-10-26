@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
   <title>Eration Services</title>
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
   <!-- google fonts -->
@@ -24,6 +24,12 @@
 </head>
 
 <body>
+
+  <div class="header">
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+</div>
 
 
   <section id="Title-page">
@@ -164,6 +170,18 @@
       </div>
     </div>
   </section>
+  <script>
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
+
   </body>
 <footer>
   <div class="" style="text-align:center; padding-bottom:3%" >
